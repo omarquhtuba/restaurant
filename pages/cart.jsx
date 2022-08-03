@@ -174,8 +174,9 @@ const Cart = () => {
             </div>
           ) : (
             <button onClick={() => setOpen(true)} className={styles.button}>
-              CHECKOUT NOW!
+              CHECKOUT NOW TEST
             </button>
+            
           )}
         </div>
       </div>
