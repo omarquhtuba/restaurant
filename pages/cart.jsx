@@ -98,9 +98,9 @@ const Cart = () => {
           <tbody>
             <tr className={styles.trTitle}>
               <th>Product</th>
-              <th>Name</th>
+              <th>Name od the Product</th>
               <th>Extras</th>
-              <th>Price</th>
+              <th>Price </th>
               <th>Quantity</th>
               <th>Total</th>
             </tr>
@@ -141,6 +141,7 @@ const Cart = () => {
       </div>
       <div className={styles.right}>
         <div className={styles.wrapper}>
+          <h2 className={styles.title}>CART TOTAL</h2>
           <h2 className={styles.title}>CART TOTAL</h2>
           <div className={styles.totalText}>
             <b className={styles.totalTextTitle}>Subtotal:</b>${cart.total}
